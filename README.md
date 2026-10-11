@@ -1,21 +1,24 @@
 # Bellold-boh
 
-Un plugin di **Valla Productions**.
+Un plugin di **Valla Productions**, creato da **Francesco Valla**.
 
-Riverbero VST3 e Audio Unit gratuito per macOS Apple Silicon, con 22 modalità, tre epoche
-sonore, preset e interfaccia ridimensionabile con tema chiaro e scuro.
+Riverbero gratuito VST3 per Windows x64 e VST3/Audio Unit per macOS Apple Silicon,
+con 22 modalità, tre epoche sonore, preset e interfaccia ridimensionabile con tema chiaro e scuro.
 
 ![Interfaccia di Bellold-boh](images/Bellold-boh.png)
 
 ## Download
 
 [Scarica l'ultima release](https://github.com/vallaproductionsoriginal-byte/Bellold-boh/releases/latest)
-e scegli **Bellold-boh-1.0.0-mac-arm64.zip**.
+e scegli il pacchetto per il tuo sistema:
+
+- **Bellold-boh-1.0.0-mac-arm64.zip**: VST3 e Audio Unit per Mac Apple Silicon.
+- **Bellold-boh-1.0.0-win-x64.zip**: VST3 per Windows a 64 bit.
 
 Il plugin viene distribuito in formato binario. Il repository contiene la
 documentazione, le licenze e l'immagine dell'interfaccia.
 
-## Requisiti
+## Requisiti macOS
 
 - Mac con processore Apple Silicon (arm64).
 - macOS 11 o successivo. La build richiede almeno macOS 11; la release è stata
@@ -23,7 +26,7 @@ documentazione, le licenze e l'immagine dell'interfaccia.
 - Una DAW con supporto VST3 o Audio Unit, eseguita nativamente su Apple Silicon.
 - Per Logic Pro usa il formato Audio Unit (`Bellold-boh.component`).
 
-## Installazione
+## Installazione macOS
 
 1. Estrai l'archivio ZIP: contiene entrambi i formati.
 2. In Finder scegli **Vai → Vai alla cartella…** e apri la cartella del formato:
@@ -40,6 +43,18 @@ I bundle sono firmati ad hoc e non sono notarizzati da Apple. macOS può richied
 un'autorizzazione in **Impostazioni di Sistema → Privacy e Sicurezza** prima
 del caricamento.
 
+## Windows x64
+
+Richiede Windows 10 o successivo, processore x64 e una DAW a 64 bit con supporto VST3.
+Richiede anche [Microsoft Visual C++ Redistributable x64](https://aka.ms/vc14/vc_redist.x64.exe).
+
+1. Estrai **Bellold-boh-1.0.0-win-x64.zip**.
+2. Copia l'intera cartella **Bellold-boh.vst3** in `C:\Program Files\Common Files\VST3\`.
+3. Riavvia la DAW o esegui una nuova scansione dei plugin.
+4. Cerca **Bellold-boh**, produttore **Valla Productions**, categoria **Reverb**.
+
+Mantieni intatta la cartella `.vst3`, inclusi `Contents` e tutte le sottocartelle.
+
 ## Controlli
 
 Mix, predelay, decay, size, attack, damping dei bassi e degli alti, diffusione
@@ -52,6 +67,8 @@ un preset. Doppio clic sui controlli per ripristinare il valore iniziale;
 clic sul valore per digitarlo. Sono supportati mono e stereo.
 
 ## Licenza
+
+Creatore: **Francesco Valla**. Copyright (c) 2026 Francesco Valla.
 
 I componenti originali di Bellold-boh e la documentazione sono concessi sotto
 [licenza MIT](LICENSE). Questa distribuzione non include il codice sorgente
@@ -66,4 +83,4 @@ Bellold-boh non rilicenzia questi componenti.
 
 Per segnalare problemi, apri una
 [issue](https://github.com/vallaproductionsoriginal-byte/Bellold-boh/issues)
-indicando versione di macOS, DAW e versione del plugin.
+indicando sistema operativo, DAW e versione del plugin.
