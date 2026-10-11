@@ -1,6 +1,8 @@
 # Bellold-boh
 
-Riverbero VST3 gratuito per macOS Apple Silicon, con 22 modalità, tre epoche
+Un plugin di **Valla Productions**.
+
+Riverbero VST3 e Audio Unit gratuito per macOS Apple Silicon, con 22 modalità, tre epoche
 sonore, preset e interfaccia ridimensionabile con tema chiaro e scuro.
 
 ![Interfaccia di Bellold-boh](images/Bellold-boh.png)
@@ -18,21 +20,23 @@ documentazione, le licenze e l'immagine dell'interfaccia.
 - Mac con processore Apple Silicon (arm64).
 - macOS 11 o successivo. La build richiede almeno macOS 11; la release è stata
   verificata sul Mac di sviluppo, senza prove su ogni versione di macOS.
-- Una DAW con supporto VST3, eseguita nativamente su Apple Silicon.
-
-Questa release contiene soltanto il formato VST3. Logic Pro richiede Audio Unit
-e non può caricare questo plugin.
+- Una DAW con supporto VST3 o Audio Unit, eseguita nativamente su Apple Silicon.
+- Per Logic Pro usa il formato Audio Unit (`Bellold-boh.component`).
 
 ## Installazione
 
-1. Estrai l'archivio ZIP.
-2. In Finder scegli **Vai → Vai alla cartella…** e apri
-   `~/Library/Audio/Plug-Ins/VST3/`. Crea la cartella se manca.
-3. Copia il bundle completo **Bellold-boh.vst3** nella cartella.
-4. Riavvia la DAW o esegui una nuova scansione dei plugin VST3.
-5. Cerca **Bellold-boh**, produttore **Francesco**, categoria **Reverb**.
+1. Estrai l'archivio ZIP: contiene entrambi i formati.
+2. In Finder scegli **Vai → Vai alla cartella…** e apri la cartella del formato:
+   - **VST3:** `~/Library/Audio/Plug-Ins/VST3/`.
+   - **Audio Unit / Logic Pro:** `~/Library/Audio/Plug-Ins/Components/`.
+   Crea la cartella se manca.
+3. Copia il bundle completo **Bellold-boh.vst3** nella cartella VST3 oppure
+   **Bellold-boh.component** nella cartella Components. Puoi installare entrambi.
+4. Riavvia la DAW o esegui una nuova scansione dei plugin.
+5. Cerca **Bellold-boh**, produttore **Valla Productions**, categoria **Reverb**.
+   In Logic Pro appare tra gli effetti **Audio Units → Valla Productions**.
 
-Il bundle è firmato ad hoc e non è notarizzato da Apple. macOS può richiedere
+I bundle sono firmati ad hoc e non sono notarizzati da Apple. macOS può richiedere
 un'autorizzazione in **Impostazioni di Sistema → Privacy e Sicurezza** prima
 del caricamento.
 

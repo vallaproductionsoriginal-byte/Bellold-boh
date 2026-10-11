@@ -3,7 +3,7 @@
 The MIT license in LICENSE applies to original Bellold-boh components and
 project documentation. It does not relicense the third-party components
 incorporated into the executable. The following notices cover the JUCE
-dependencies used to build this macOS VST3 distribution.
+dependencies used to build this macOS VST3 and Audio Unit distribution.
 
 ## JUCE 9.0.3
 
