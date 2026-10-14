@@ -1,6 +1,6 @@
 # Third-party notices
 
-The MIT license in LICENSE applies to original Bellold-boh components and
+The proprietary software license in LICENSE applies to original Bellold-boh components and
 project documentation. It does not relicense the third-party components
 incorporated into the executable. The following notices cover the JUCE
 dependencies used to build the Bellold-boh VST3 and Audio Unit distributions.
@@ -11,7 +11,7 @@ Copyright (c) Raw Material Software Limited.
 
 JUCE is used under the commercial JUCE Starter licence, rather than the
 alternative AGPLv3 licence. JUCE remains the property of its copyright holders.
-The Bellold-boh MIT grant does not grant a separate licence to the JUCE framework.
+The Bellold-boh licence does not grant a separate licence to the JUCE framework.
 
 JUCE 9 End User Licence Agreement: https://juce.com/legal/juce-9-licence/
 

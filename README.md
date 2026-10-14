@@ -70,13 +70,14 @@ clic sul valore per digitarlo. Sono supportati mono e stereo.
 
 Creatore: **Francesco Valla**. Copyright (c) 2026 Francesco Valla.
 
-I componenti originali di Bellold-boh e la documentazione sono concessi sotto
-[licenza MIT](LICENSE). Questa distribuzione non include il codice sorgente
-del plugin.
+I componenti originali di Bellold-boh e la documentazione sono soggetti alla
+[licenza proprietaria](LICENSE). Tutti i diritti sono riservati; l'uso richiede
+l'autorizzazione espressa del titolare nei limiti concessi. Questa distribuzione
+non include il codice sorgente del plugin.
 
 JUCE è utilizzato secondo la licenza commerciale **JUCE Starter**. JUCE e le
 altre dipendenze conservano le proprie licenze, riportate integralmente dove
-necessario in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). La MIT di
+necessario in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). La licenza di
 Bellold-boh non rilicenzia questi componenti.
 
 ## Supporto
